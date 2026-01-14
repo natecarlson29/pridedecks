@@ -78,7 +78,7 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isOpen ? 'max-h-64 pb-4' : 'max-h-0'
+            isOpen ? 'max-h-80 pb-6' : 'max-h-0'
           }`}
         >
           <div className="flex flex-col space-y-3">
@@ -95,7 +95,7 @@ export default function Navbar() {
             <a
               href="#contact"
               onClick={handleLinkClick}
-              className="bg-accent hover:bg-accent-light text-white px-5 py-2.5 rounded-lg font-semibold transition-colors duration-200 text-center mt-2"
+              className="bg-accent hover:bg-accent-light text-white px-5 py-2.5 rounded-lg font-semibold transition-colors duration-200 text-center mt-2 mb-2"
             >
               Get a Quote
             </a>

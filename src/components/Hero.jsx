@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20 pb-24 md:pb-16">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
           Pride Decks
           <span className="block text-pride-300">&amp; Exteriors</span>
@@ -73,8 +73,8 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <a href="#about" className="text-pride-300 hover:text-white transition-colors">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
+        <a href="#about" className="text-pride-300 hover:text-white transition-colors block p-2">
           <svg
             className="w-6 h-6"
             fill="none"
