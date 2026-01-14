@@ -73,8 +73,8 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-20">
-        <a href="#about" className="text-pride-300 hover:text-white transition-colors block p-2">
+      <div className="absolute bottom-8 left-0 right-0 flex justify-center z-20 animate-bounce">
+        <a href="#about" className="text-pride-300 hover:text-white transition-colors p-3">
           <svg
             className="w-6 h-6"
             fill="none"
