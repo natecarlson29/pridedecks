@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-pride-50 text-pride-800 antialiased;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-pride-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-pride-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-pride-500;
+}
